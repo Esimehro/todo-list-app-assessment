@@ -1,0 +1,100 @@
+.form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.form input {
+  width: 70%;
+  padding: 1rem;
+  height: 3rem;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  background-color: #3c3d37;
+  padding: 0.5rem 1rem;
+  border: 1px solid #3c3d37;
+  color: white;
+}
+
+form input::placeholder {
+  color: grey;
+}
+
+.actionBtns {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form button {
+  padding: 0.8rem 1rem;
+  width: 7rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background: #16423c;
+  font-size: 16px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.form button:hover {
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #215c53;
+  color: #ffffff;
+}
+
+.form select.select {
+  padding: 0.8rem 0.2rem;
+  width: 8rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background: #16423c;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form select.select:hover {
+  background-color: #215c53;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form select.select:focus {
+  outline: 2px solid #35a19e;
+}
+
+@media screen and (max-width: 760px) {
+  .form {
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .form input {
+    width: 100%;
+  }
+
+  .actionBtns {
+    align-items: end;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form button {
+    font-size: 14px;
+  }
+}
