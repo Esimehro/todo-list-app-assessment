@@ -1,0 +1,72 @@
+.container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  width: 100%;
+  max-width: 2000px;
+}
+
+.todoList {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 60%;
+  padding: 3rem 0rem;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.date,
+.salutation {
+  display: flex;
+  flex-direction: column;
+}
+
+.date h2,
+.greeting {
+  color: #ffffff;
+  font-size: 22px;
+  font-size: 600;
+}
+
+.checking {
+  color: grey;
+  font-size: 22px;
+  font-size: 600;
+}
+
+.listSection {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+  .todoList {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .todoList {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .todoList {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .todoList {
+    width: 85%;
+  }
+}
