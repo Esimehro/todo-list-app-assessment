@@ -1,0 +1,29 @@
+.list {
+  padding: 1rem;
+  height: 3rem;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  background-color: #3c3d37;
+  padding: 0.5rem 1rem;
+  border: 1px solid #3c3d37;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  justify-content: space-between;
+  text-wrap: wrap;
+  width: 100%;
+}
+
+.list span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .list {
+    font-size: 14px;
+  }
+}
