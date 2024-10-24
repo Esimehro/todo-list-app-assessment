@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import home from "./home.module.css";
 import AddTask from "../AddTask/AddTask";
 import TodoList from "../TodoList/TodoList";
